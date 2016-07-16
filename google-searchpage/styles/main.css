@@ -20,7 +20,7 @@ a:link:hover {
 	text-decoration: underline;
 }
 
-:focus {
+:focus{
 	outline: none;
 }
 
@@ -161,6 +161,11 @@ a:link:hover {
 	color: #000;
 }
 
+.not-selected-category:active {
+	color: #4d90fe;
+}
+
+
 #current-category {
 	border-bottom: 3px solid #4285f4;
 	padding: 17px 10px 14px;
@@ -185,6 +190,10 @@ a:link:hover {
 #more:hover #more-arrow {
 	border-color: #000 transparent;
 	
+}
+
+#more:hover #more-arrow {
+	border-color: #4d90fe transparent;
 }
 
 #searchtools {
@@ -229,6 +238,11 @@ a:link:hover {
 
 #gear:hover {
 	box-shadow: 0 1px 1px #e2e2e2;
+}
+
+
+#gear:focus {
+	border:1px solid #4d90fe
 }
 
 #gear:active {
