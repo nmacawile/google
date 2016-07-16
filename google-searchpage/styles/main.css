@@ -124,6 +124,7 @@ a:link:hover {
 	background-color: #4285f4;
 	border: none;
 	border-radius: 2px;
+	font-size: 13px;
 }
 
 #signinbutton :hover {
