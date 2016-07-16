@@ -192,7 +192,7 @@ a:link:hover {
 	
 }
 
-#more:hover #more-arrow {
+#more:active #more-arrow {
 	border-color: #4d90fe transparent;
 }
 
